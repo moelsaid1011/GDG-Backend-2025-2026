@@ -1,0 +1,10 @@
+a{
+    text-align: center;
+    display: inline-block;
+    border-top: solid green 50px;
+    border-right: solid green 50px;
+    border-left: solid green 50px;
+    border-bottom: solid rgb(2, 84, 39) 50px;
+    text-transform: capitalize;
+    text-decoration: none;
+}

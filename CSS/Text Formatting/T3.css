@@ -1,0 +1,15 @@
+.d1{
+    width: 400px;
+    padding: 50px;
+    word-break: break-all;
+    
+}
+.d2{
+    width: 400px;
+    padding: 50px;
+}
+.d3{
+    width: 400px;
+    padding: 50px;
+    text-overflow: ellipsis;
+}
