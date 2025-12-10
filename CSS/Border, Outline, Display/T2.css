@@ -1,0 +1,16 @@
+.element-element-1{
+    width: 400px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white white white red;
+}
+.element-element-2{
+    width: 400px;
+    visibility: hidden;
+}
+.element-element-3{
+    width: 400px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white white white green;
+}

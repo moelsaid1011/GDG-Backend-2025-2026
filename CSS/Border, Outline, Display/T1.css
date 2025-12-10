@@ -1,0 +1,14 @@
+.s1{
+    border: 5px red solid;
+}
+.s2{
+    border-width: 5px;
+    border-color: green blue;
+    border-style: solid;
+}
+.s3{
+    border-width: 5px;
+    border-color: yellow red green blue;
+    border-style: dashed;
+
+}
