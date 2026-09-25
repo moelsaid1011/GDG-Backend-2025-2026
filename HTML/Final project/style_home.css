@@ -1,0 +1,69 @@
+/* 1. ضبط الأساسيات */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: azure;
+    font-family: Arial, sans-serif;
+    
+    /* هوامش داخلية عشان نسيب مسافة من الأطراف والكلام يقعد صح على الصورة */
+    padding: 40px 60px;
+}
+
+/* 2. العنوان الرئيسي */
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* 3. القائمة العليا (Nav) */
+nav {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+/* 4. الروابط العامة */
+a {
+    font-size: 18px;
+    color: azure;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #38bdf8; /* لون أزرق فاتح لما تقف بالماوس */
+}
+
+/* 5. قسم المنتجات */
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+/* 6. الجزء السفلي (Footer) */
+footer {
+    margin-top: auto;
+}
+
+#foot {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
